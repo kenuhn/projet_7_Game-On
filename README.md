@@ -1,5 +1,6 @@
 # Projet GameOn
-1. Forkez ce repo ;
-2. Il est conseillé d'utiliser VisualStudio Code et vous pouvez utiliser Docker, mais ce n'est pas obligatoire ;
-3. Il n'y a aucune dépendance ;
-4. Vous ne devez utiliser que du CSS personnalisé et du JavaScript pur, sans jQuery, Bootstrap ou autre librairie.
+Le projet finalisé comporte : 
+
+1. Un réajustement du responsive dans le fichier modal.css
+2. La logique du formulaire dans le fichier modal.js
+3. Ainsi qu'un modal de remerciement s'affichant une fois la verification des informations du formulaire.
