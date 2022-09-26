@@ -75,7 +75,7 @@ function verifFirstName(){
     )
     const resultat = regexFirstName.test(firstName.value)
     if (resultat == false){
-      errorLast.style.display = "block";
+      errorFirst.style.display = "block";
       errorFirst.innerText = " Il y a une erreur dans le nom"
     }
    if (firstName.value.length < 2 && resultat == false) {
@@ -178,6 +178,7 @@ function verifQuantity () {
 }
 
 const checkbox = document.querySelectorAll(".checkbox")
+console.log(Array.from(checkbox))
 const SanFrancisco = document.getElementById("location2")
 console.log(SanFrancisco.value)
 checkbox.forEach((box) => box.addEventListener('change', () => townSelected))
