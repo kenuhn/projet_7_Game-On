@@ -1,5 +1,6 @@
 # Projet GameOn
-Le projet finalisé comporte : 
+petit projet de création d'une modale en javascript natif : 
+
 
 1. Un réajustement du responsive dans le fichier modal.css
 2. La logique du formulaire dans le fichier modal.js
